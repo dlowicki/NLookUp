@@ -1,0 +1,44 @@
+[04:03:2020 - 15:14:01] Links wurden geladen
+[04:03:2020 - 15:14:08] Versionen wurden aktualisiert
+[04:03:2020 - 15:14:08] Download Links wurden aktualisiert
+[04:03:2020 - 15:14:08] Download Links wurden geladen
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro FX 580 wurde überspringen [versionen.ini] 342.00 = [DATEI] 342.00
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro 2000 wurde überspringen [versionen.ini] 377.83 = [DATEI] 377.83
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro K2100M wurde überspringen [versionen.ini] 426.32 = [DATEI] 426.32
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia NVS 4200M wurde überspringen [versionen.ini] 392.58 = [DATEI] 392.58
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro 2000M wurde überspringen [versionen.ini] 377.83 = [DATEI] 377.83
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro FX 1800 wurde überspringen [versionen.ini] 342.00 = [DATEI] 342.00
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro FX 1800M wurde überspringen [versionen.ini] 342.00 = [DATEI] 342.00
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro FX 2800M wurde überspringen [versionen.ini] 342.00 = [DATEI] 342.00
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro K1100M wurde überspringen [versionen.ini] 426.32 = [DATEI] 426.32
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro K2000 wurde überspringen [versionen.ini] 442.19 = [DATEI] 442.19
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro K2000M wurde überspringen [versionen.ini] 426.32 = [DATEI] 426.32
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro K2200 wurde überspringen [versionen.ini] 442.19 = [DATEI] 442.19
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro K2200M wurde überspringen [versionen.ini] 442.19 = [DATEI] 442.19
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro K5100M wurde überspringen [versionen.ini] 426.32 = [DATEI] 426.32
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro M2000M wurde überspringen [versionen.ini] 442.19 = [DATEI] 442.19
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro M2200 wurde überspringen [versionen.ini] 442.19 = [DATEI] 442.19
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro P2000 wurde überspringen [versionen.ini] 442.19 = [DATEI] 442.19
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro P3200 wurde überspringen [versionen.ini] 442.19 = [DATEI] 442.19
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro P5000 wurde überspringen [versionen.ini] 442.19 = [DATEI] 442.19
+[04:03:2020 - 15:14:08] Versionen wurden geladen
+[04:03:2020 - 15:14:08] Nvidia Quadro RTX 3000 wurde überspringen [versionen.ini] 442.19 = [DATEI] 442.19
