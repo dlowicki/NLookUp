@@ -1,5 +1,9 @@
 <?php
 require("script.php");
+if(!isset($_GET['q']))
+{
+  header('Location: ?q=Dashboard');
+}
 ?>
 <!DOCTYPE html>
 <html lang="ger" dir="ltr">
@@ -8,45 +12,34 @@ require("script.php");
     <title>Startseite | NLookUp</title>
     <link href="style.css" rel="stylesheet">
     <script src="jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
   </head>
   <body>
     <!--
     Created 28.02.2020
     -->
     <div id="container">
-      <div id="navigation">
-        <img src="img/logo2.png" width="4%">
-        <div id="nav-list">
-          <ul>
-            <li><a href="">Test 1</a></li>
-            <li><a href="">Test 2</a></li>
-          </ul>
-        </div>
-      </div>
-
       <div id="main">
         <div id="main-header">
-          <h2><?php if(isset($_GET['q'])) { echo $_GET['q']; } ?></h2>
-           <h3>5.03.2020 00:01:00 Uhr</h3>
+          <h2>Nvidia Dashboard</h2>
+          <div id="navigation">
+            <a href="?q=Dashboard">Dashboard</a> <a href="?q=Protokoll">Protokoll</a>
+          </div>
         </div>
 
         <div id="main-body">
-
             <?php
             if(isset($_GET['q'])){
               if($_GET['q'] == "Dashboard"){
                 echo "<ul>";
                 $version = parse_ini_file("versions.ini");
                 foreach($version as $key => $value) {
-                  echo "<li id='" . $key . "'>";
-                    echo "<p>" . $key . " <b>v" . $value . "</b></p>";
-                    echo '<div class="icon3 icon"><img src="img/muell.svg"></div>
-                          <div class="icon2 icon" onClick="downloadFile(';
-                    echo  "'" . $key . "'";
-                    echo  ')"><img src="img/herunterladen.svg"></div>
-                          <div class="icon1 icon" onClick="updateFile(';
-                    echo  "'" . $key . "'";
-                    echo  ')"><img src="img/neu-laden.svg"></div>';
+                  echo "<li id='$key'><p>$key<b>v$value</b></p>";
+                    echo '<div class="icon-container">';
+                      echo '<div class="icon"><i class="fas fa-trash"></i></div>';
+                      echo '<div class="icon" onClick="downloadFile('; echo  "'" . $key . "'"; echo ')"><i class="fas fa-cloud-download-alt"></i></div>';
+                      echo '<div class="icon" onClick="updateFile('; echo  "'" . $key . "'"; echo ')"><i class="fas fa-redo-alt"></i></div>';
+                    echo '</div>';
                   echo "</li>";
                 }
                 echo "</ul>";
@@ -73,13 +66,6 @@ require("script.php");
 
             ?>
 
-        </div>
-
-        <div id="main-sidebar">
-          <ul>
-            <li><a href="?q=Dashboard">Dashboard</a></li>
-            <li><a href="?q=Protokoll">Protokoll</a></li>
-          </ul>
         </div>
       </div>
 
